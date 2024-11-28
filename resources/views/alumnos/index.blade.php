@@ -18,5 +18,5 @@
         </tr>
     @endforeach
 
-    <a href="{{ route('alumnos.show', $alumno->id) }}"> {{ $alumno->nombre_ape }}</a>
-</table>
+{{--     <a href="{{ route('alumnos.show', $alumno->id) }}"> {{ $alumno->nombre_ape }}</a>
+ --}}</table>

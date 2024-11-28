@@ -15,7 +15,7 @@ class AlumnoController extends Controller
     }
 
     // Método para mostrar un alumno específico por su ID
-    /* public function show($id)
+    public function show($id)
     {
         // Encuentra al alumno por su ID
         $alumno = Alumno::find($id);
@@ -28,5 +28,5 @@ class AlumnoController extends Controller
 
         // Si se encuentra, muestra la vista con los datos del alumno
         return view('alumnos.show', compact('alumno'));
-    } */
+    }
 }

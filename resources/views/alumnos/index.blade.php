@@ -1,5 +1,11 @@
 <h2>LISTADO DE ALUMNOS</h2>
 
+{{-- <!-- Formulario de búsqueda -->
+<form action="{{ route('alumnos.search') }}" method="get">
+    <input type="text" name="query" placeholder="Buscar alumno..." required>
+    <button type="submit">Buscar</button>
+</form> --}}
+
 <table style="border:2px solid red">
     <tr>
         <th>Nombre </th>
@@ -18,5 +24,6 @@
         </tr>
     @endforeach
 
-{{--     <a href="{{ route('alumnos.show', $alumno->id) }}"> {{ $alumno->nombre_ape }}</a>
- --}}</table>
+    {{--     <a href="{{ route('alumnos.show', $alumno->id) }}"> {{ $alumno->nombre_ape }}</a>
+ --}}
+</table>

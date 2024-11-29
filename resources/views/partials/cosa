@@ -17,27 +17,17 @@
         </li>
 
         <li><a href="#"><b>Cursos</b></a>
-
             <ul id="submenu">
-
                 <li><a href="{{route('cursos.index')}}">Cursos</a></li>
-
                 <li><a href="{{route('cursos.create')}}">Nuevo curso</a></li>
-
             </ul>
-
         </li>
 
         <li><a href="#"><b>Profesores</b></a>
-
             <ul id="submenu">
-
                 <li><a href="{{route('profesores.index')}}">Profesores</a></li>
-
                 <li><a href="{{route('profesores.create')}}">Nuevo profesor</a></li>
-
             </ul>
-
         </li>
 
 
@@ -46,3 +36,4 @@
 <hr><br>
 
 </nav>
+

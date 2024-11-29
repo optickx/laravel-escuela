@@ -14,9 +14,6 @@
 
 <body>
 
-
-
-
     @include('partials.menu')
 
     <section class="content">
